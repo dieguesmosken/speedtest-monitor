@@ -2,7 +2,7 @@
 
 ### Description
 
-This is a simple internet speed monitor that allows you to check the download and upload speed of your internet connection. The program is written in Python and uses the [speedtest-cli](https://github.com/sivel/speedtest-cli) library to perform the speed tests.
+This is a simple internet speed monitor that allows you to check the download and upload speed of your internet connection. The program is written in Python and uses the psutil library to perform the speed tests.
 
 ### How to use
 
@@ -18,15 +18,16 @@ The internet speed monitor provides the following features:
 
 - Measures the download and upload speed of your internet connection.
 - Displays the results on the console.
-- Option to save the results to a CSV file.
+- Option to save the results to a PNG file.
 
 ### Future Improvements
 - Graphical user interface for displaying the results.
 - Automated speed tests at regular intervals.
 - Integration with other network monitoring tools.
+- Option to save the results to a PNG file.
 
 ### Descrição
-Este é um monitor simples de velocidade de internet que permite verificar a velocidade de download e upload da sua conexão com a internet. O programa é escrito em Python e usa a biblioteca speedtest-cli para realizar os testes de velocidade.
+Este é um monitor simples de velocidade de internet que permite verificar a velocidade de download e upload da sua conexão com a internet. O programa é escrito em Python e usa a biblioteca psutil para realizar os testes de velocidade.
 
 ### Como usar
 Para usar o programa, basta baixar o arquivo internet_speed_monitor.py e executá-lo usando o Python 3.
