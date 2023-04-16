@@ -10,7 +10,7 @@ To use the program, simply download the `internet_speed_monitor.py` file and run
 
 ```python
 python3 internet_speed_monitor.py
-
+```
 The program will perform a speed test and display the results on the console.
 
 ### Features
@@ -33,7 +33,7 @@ Para usar o programa, basta baixar o arquivo internet_speed_monitor.py e execut�
 
 ```python
 python3 internet_speed_monitor.py
-
+```
 O programa realizará um teste de velocidade e exibirá os resultados no console.
 
 ### Recursos
@@ -47,3 +47,5 @@ O programa realizará um teste de velocidade e exibirá os resultados no console
 - Testes de velocidade automatizados em intervalos regulares.
 - Integração com outras ferramentas de monitoramento de rede.
 - Opção para salvar os resultados em um arquivo CSV.
+- Correções de erros e desempenho
+- Melhorias de design
