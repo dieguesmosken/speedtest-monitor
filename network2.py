@@ -41,7 +41,6 @@ start_time = datetime.now()
 
 # Função de animação
 def animate(i):
-    global xs, ys, max_speed, min_speed, speeds_per_min, avg_speed, text_max, text_min, text_avg, start_time
     speed = get_network_speed()
     xs.append((datetime.now() - start_time).total_seconds())
     ys.append(speed)
