@@ -2,8 +2,7 @@ import psutil
 import time
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-from tkinter import messagebox
-from datetime import datetime, timedelta
+from datetime import datetime
 
 
 # Configuração do gráfico
