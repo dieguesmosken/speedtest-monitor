@@ -49,21 +49,21 @@ def animate(i):
     ys = ys[-60:]
     line.set_xdata(xs)
     line.set_ydata(ys)
-    
+
     # Atualiza as velocidades máxima e mínima
     max_speed = max(max_speed, speed)
     min_speed = min(min_speed, speed)
     text_max.set_text(f"Max: {max_speed:.2f} MB/s")
     text_min.set_text(f"Min: {min_speed:.2f} MB/s")
-    
+
     # Atualiza a velocidade média a cada minuto
     if i > 0 and i % 60 == 0:
         avg_speed = sum(ys[-60:]) / 60
         speeds_per_min.append(avg_speed)
-    
+
     # Atualiza o texto da velocidade média
     text_avg.set_text(f"Média: {avg_speed:.2f} MB/s")
-    
+
     return line, text_max
 
 # Inicia a animação
