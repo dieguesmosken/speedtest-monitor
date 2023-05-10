@@ -1,5 +1,6 @@
 ## Internet Speed Monitor
-
+---
+:us: - EN_US
 ### Description
 
 This is a simple internet speed monitor that allows you to check the download and upload speed of your internet connection. The program is written in Python and uses the psutil library to perform the speed tests.
@@ -25,7 +26,8 @@ The internet speed monitor provides the following features:
 - Automated speed tests at regular intervals.
 - Integration with other network monitoring tools.
 - Option to save the results to a PNG file.
-
+---
+:brazil: - PT_BR 
 ### Descrição
 Este é um monitor simples de velocidade de internet que permite verificar a velocidade de download e upload da sua conexão com a internet. O programa é escrito em Python e usa a biblioteca psutil para realizar os testes de velocidade.
 
